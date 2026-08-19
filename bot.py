@@ -9,12 +9,12 @@ import re
 from datetime import datetime
 from telethon import TelegramClient, events, Button
 
-CHECKER_API_URL = 'https://afuona.up.railway.app/shopify'
+CHECKER_API_URL = 'https://yorichixdead.up.railway.app/shopify?site=holiday-hack.myshopify.com&cc=4472270080201346|07|2029|140&proxy=p102.instantproxies.com:9294:7167:6ovM4BuhLNhC'
 
 API_ID = 33990838
 API_HASH = 'db2493f3d099768a43becc7b2f2c5226'
-BOT_TOKEN = '7960823066:AAF_FXIRobjsLFcmJx8wYy-HH_7vI9lJTUQ'
-ADMIN_IDS = [6601184733]
+BOT_TOKEN = '8981422160:AAHGi1QFD4asskSdcBfhLhO7IpUja3hRMMk'
+ADMIN_IDS = [8421362535]
 
 def is_admin(user_id):
     return user_id in ADMIN_IDS
@@ -172,7 +172,7 @@ async def get_user_stats_text(user_id, username):
     text += f"    ┣ 🔌 𝗣𝗿𝗼𝘅𝗶𝗲𝘀  {proxies_count}\n"  
     text += f"    ┣ 💥 𝗛𝗶𝘁𝘀{successful_checks}\n"
     text += f"    ┗ 📈 𝗧𝗼𝘁𝗮𝗹 {total_checks}\n\n\n"
-    text += f"💡 𝗠𝗮𝗱𝗲 𝗯𝘆: @Xyoshy"
+    text += f"💡 𝗠𝗮𝗱𝗲 𝗯𝘆: @Sy_saint"
     
     return text
 
@@ -1444,6 +1444,6 @@ async def auto_add_admins():
             print(f"✅ Admin {admin_id_str} added to premium automatically!")
 asyncio.get_event_loop().run_until_complete(auto_add_admins())
 print("✅ Bot started successfully!")
-print("⚡ Bot By: @Xyoshy")
+print("⚡ Bot By: @Sy_saint")
 
 bot.run_until_disconnected()
